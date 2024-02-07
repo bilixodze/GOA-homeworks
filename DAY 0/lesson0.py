@@ -2,7 +2,7 @@ from turtle import *
 
 shape("turtle")
 
-
+speed(30)
 
 #we wont to paint a house
 #step 1: draw a square
