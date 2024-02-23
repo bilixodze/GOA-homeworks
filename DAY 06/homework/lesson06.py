@@ -1,14 +1,14 @@
 
 """დავადეკლარიროთ ცვლადები სახელად num1, num2 და num3.
- შემდეგ დავადეკლარიროთ ცვლადი სახელად result, სადაც გავამრავლებთ
+შემდეგ დავადეკლარიროთ ცვლადი სახელად result, სადაც გავამრავლებთ
 num1, num2 და num3 ცვლადებს და შემდეგ გამოვსახავთ print ფუნქციით ტერმინალში.
 გამოვიყენოთ input() ფუნქცია და ტერმინალში მომხმარებელს შევაყვანინოთ
-მისი სასურველი int რიცხვები, input() ფუნქციაში მოთავსებული str სახის რიცხვები
-int() ფუნქციიტ ვაქციოტ iny_ად"""
+მისი სასურველი int რიცხვები, input() ფუნქციაში მოთავსებული str_ის სახის რიცხვები
+int() ფუნქციიტ ვაქციოტ int_ად"""
 
-num1 = int(input("plz enter numder1: "))
-num2 = int(input("plz enter numder2: "))
-num3 = int(input("plz enter numder3: "))
+num1 = int(input("please enter numder1: "))
+num2 = int(input("please enter numder2: "))
+num3 = int(input("please enter numder3: "))
 
 result = (num1 * num2 * num3)
 

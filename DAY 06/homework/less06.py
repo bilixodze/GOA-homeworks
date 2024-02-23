@@ -5,9 +5,9 @@
 გვარი და ასაკი, შემდეგ შევქმნათ ახალი ცვლადი სახელად introduqtion სადაც შევაერთებთ
 ცვლადებს (name) (surname) და (age)"""
 
-name = input("plz enter your name: ")
-surname = input("plz enter your surname: ")
-age = input("plz enter your age: ")
+name = input("please enter your name: ")
+surname = input("pleaze enter your surname: ")
+age = input("please enter your age: ")
 
 introduqtion = "my name is " + name + ", my surname is " +surname + ", my age is " + age +""
 
