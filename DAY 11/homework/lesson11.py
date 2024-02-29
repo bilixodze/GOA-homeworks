@@ -34,12 +34,12 @@ if it's a positive, negative, or zero number using if-else"""
 """Write a program that calculates the sum of a number entered
  by the user using a while loop."""
 
-i = int(input())
-while i < 101:
-  print(i)
-  if i == 0:
-    break
-  i += 1
+# i = int(input())
+# while i < 101:
+#   print(i)
+#   if i == 0:
+#     break
+#   i += 1
 
 # third task end 
   
@@ -92,3 +92,24 @@ and if they enter "admin" and "password123", respectively, print "Login successf
 #   print("your pasword incorect, please try again:")
 
   # fifth task end
+
+
+# sixth task start
+
+"""Write a program that asks the user for their age and prints a message based on the age range
+ (e.g., "Child", "Teenager", "Adult") using if-elif-else."""
+
+
+# num1 = 13
+# num2 = 17
+# num3 = 100
+
+# if int(input()) <= num1:
+#     print("child")
+# elif int(input()) <= num2:
+#     print("teen")
+# else:
+#     int(input()) <= num3
+#     print("adult")
+
+    # sixth task end
