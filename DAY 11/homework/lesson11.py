@@ -4,15 +4,14 @@
 """Write a program that takes an input from the user and checks 
 if it's a positive, negative, or zero number using if-else"""
 
-# num1 = 25
-# num2 = 18
+# number = float(input("Please your number: "))
 
-# if int(input()) >= num1 :
-#     print("VIP server")
-# elif int(input()) >= num2 :
-#     print("standard server")
+# if number > 0 :
+#     print(number, "is positive")
+# elif number <0 :
+#     print(number, "is negative")
 # else:
-#     print("disconnect")
+#     print(number, "is zero")    
 
 # first task end
 
@@ -112,4 +111,4 @@ and if they enter "admin" and "password123", respectively, print "Login successf
 #     int(input()) <= num3
 #     print("adult")
 
-    # sixth task end
+# sixth task end
