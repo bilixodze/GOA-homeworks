@@ -6,6 +6,6 @@ pasword = "goabest"
 
 while authorized != True:
     user_input = input("enter your password: ")
-    if user_input == "goabest":
+    if user_input == pasword:
         print("acces granted")
         authorized = True

@@ -79,16 +79,16 @@ and if they enter "admin" and "password123", respectively, print "Login successf
 #   if input_name == name:
 #     print("Your username is correct.")
 #     break
-# else:
-#   print("your username incorect, please try again:")
+#   else:
+#     print("your username incorect, please try again:")
 
 # while True:
 #   input_password = input("please enter your password:")
 #   if input_password == password:
 #     print("Your password is correct. You have successfully logged in")
 #     break
-# else:
-#   print("your pasword incorect, please try again:")
+#   else:
+#     print("your pasword incorect, please try again:")
 
   # fifth task end
 
@@ -99,16 +99,14 @@ and if they enter "admin" and "password123", respectively, print "Login successf
  (e.g., "Child", "Teenager", "Adult") using if-elif-else."""
 
 
-# num1 = 13
-# num2 = 17
-# num3 = 100
+# age =int(input("Please enter your age: "))
 
-# if int(input()) <= num1:
+# if age <= 10:
 #     print("child")
-# elif int(input()) <= num2:
+# elif age <= 17:
 #     print("teen")
 # else:
-#     int(input()) <= num3
+#     age <= 1000
 #     print("adult")
 
 # sixth task end
