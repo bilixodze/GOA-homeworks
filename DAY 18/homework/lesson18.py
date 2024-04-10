@@ -3,11 +3,17 @@
 """შექმენით ფუნქცია, რომელსაც გადაეცემა 1-იდან 20-ის ჩათვლით რიცხვების სია.
 თქვენ უნდა დააბრუნოთ გაფილტრული სია, სადაც უკვე მარტო 4-ის ჯერადები იქნება."""
 
+def myfunc(num_list):
+    number_list = []
 
+    for num in num_list:
+        if num % 4 == 0:
+            number_list.append(num)
+    
+    print(number_list)
 
-
-
-# უნდა დავასრულო
+number_list_2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17.18,19,20]
+myfunc(number_list_2)
 
 # first task end
 
@@ -87,4 +93,4 @@ for ციკლით სიაში შეინახეთ მათ შო
 
 # surname = input("Enter your surname: ")
 
-# fourth task start
+# fourth task end

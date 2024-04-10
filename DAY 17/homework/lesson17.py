@@ -59,12 +59,12 @@ containing only the even numbers from the original list"""
 
 """Write a function that takes a list of numbers as input and returns the largest number in the list"""
 
-# def big_numbers(number):
-#     return max(number)
+def big_numbers(number):
+    return max(number)
 
-# num_list = [11,4,3,23,20,7,24,14]
+num_list = [11,4,3,23,20,7,24,14]
 
-# print(big_numbers(num_list))
+print(big_numbers(num_list))
 
 # fourth task end
 
@@ -139,19 +139,19 @@ a new list containing the lengths of each string."""
 """Write a function that takes a list of numbers as input and returns
  the sum of all the numbers that are greater than 10"""
 
-def number_list(number):
-    result = 0
+# def number_list(number):
+#     result = 0
 
-    for num in number:
-        if num > 10:
-            result = result + num
+#     for num in number:
+#         if num > 10:
+#             result = result + num
     
-    return result
+#     return result
 
-num_list = [int(input("Enter number: ")),int(input("Enter number: ")),
-            int(input("Enter number: ")),int(input("Enter number: ")),
-            int(input("Enter number: ")),int(input("Enter number: ")),]
+# num_list = [int(input("Enter number: ")),int(input("Enter number: ")),
+#             int(input("Enter number: ")),int(input("Enter number: ")),
+#             int(input("Enter number: ")),int(input("Enter number: ")),]
 
-print(number_list(num_list))
+# print(number_list(num_list))
 
 # eighth task end

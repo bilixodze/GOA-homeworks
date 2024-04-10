@@ -1,4 +1,3 @@
-
 def filter_number(number):
     filter_list = []
 
