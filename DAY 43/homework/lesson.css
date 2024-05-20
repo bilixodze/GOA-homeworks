@@ -1,0 +1,23 @@
+body{
+    text-align: center; background-color:whitesmoke;
+}
+
+h1,h2{
+    color:rgb(0, 0, 0);
+}
+
+b{
+    color: greenyellow;
+}
+
+del{
+    color: red;
+}
+
+button{
+    background-color: darkorange;
+}
+
+a{
+    color: black;
+}
