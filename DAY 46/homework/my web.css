@@ -1,0 +1,31 @@
+html{
+    background-color: blanchedalmond; text-align: center;
+}
+
+footer{
+    background-color: burlywood;
+}
+
+h4{
+    text-align: center;
+}
+
+.insta{
+    text-align: left;
+}
+
+.number{
+    text-align: center;
+}
+
+.email{
+    text-align: right;
+}
+
+button{
+    background-color: lightsteelblue; 
+}
+
+.log{
+    background-color: beige;
+}
