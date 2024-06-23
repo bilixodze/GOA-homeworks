@@ -1,0 +1,42 @@
+html{
+     background-color: cornsilk;
+}
+
+main,h4,header{
+    text-align: center;
+}
+
+h1{
+    color: red; 
+}
+
+table{
+    background-color: whitesmoke; text-align: center;
+}
+
+.head{
+    background-color: greenyellow;
+}
+
+.line2{
+    background-color: lightgray;
+}
+
+footer{
+    background-color:bisque ;
+}
+
+.insta{
+    text-align: left; 
+    color:deeppink;
+}
+
+.number{
+    text-align: center;
+    color: lightgreen;
+}
+
+.email{
+    text-align: right;
+    color: red;
+}

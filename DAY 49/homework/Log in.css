@@ -1,0 +1,30 @@
+html{
+    text-align: center; background-color: cornsilk;
+}
+
+h1{
+    color:black;
+}
+
+button{
+    background-color:lemonchiffon; 
+}
+
+footer{
+    background-color:bisque ;
+}
+
+.insta{
+    text-align: left; 
+    color:deeppink;
+}
+
+.number{
+    text-align: center;
+    color: green;
+}
+
+.email{
+    text-align: right;
+    color: red;
+}

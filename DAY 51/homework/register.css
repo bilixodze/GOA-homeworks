@@ -1,0 +1,27 @@
+html{
+    background-color: lemonchiffon; text-align: center; text-transform: lowercase;
+}
+
+h1{
+    color: darkblue;
+}
+
+input{
+    background-color: lemonchiffon;
+}
+
+::placeholder{
+    color: black;
+}
+
+.button{
+    color: black;
+}
+
+button{
+    background-color: lemonchiffon; 
+}
+
+footer{
+    background-color: blanchedalmond; 
+}

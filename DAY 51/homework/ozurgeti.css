@@ -1,0 +1,27 @@
+html{
+    background-color: lemonchiffon; text-align: center;
+}
+
+h1 , .main{
+    text-align: left; color: darkorange;
+}
+
+h2{
+    text-transform: lowercase; 
+}
+
+footer{
+    background-color: blanchedalmond;
+}
+
+.face , a{
+    text-align: left; color: darkblue;
+}
+
+.tel{
+    color: lightgreen;
+}
+
+.mail{
+    text-align: right; color: red;
+}
