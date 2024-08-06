@@ -1,0 +1,45 @@
+.parent{
+    width: 1520px;
+    height: 710px;
+
+    border-radius: 25px;
+
+    background-image: url(../sign\ up\ image.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: left;
+
+    overflow: hidden;
+
+    box-shadow: 3px 3px 60px;
+}
+
+.child{
+    height: 70%;
+    padding: 70px;
+    
+    margin-left: 700px;
+    
+}
+
+h1{
+    display: inline;
+}
+
+p{
+    display: inline;
+
+    color:rgba(128, 128, 128, 0.775);
+}
+
+input{
+    text-align: center;
+}
+
+#button{
+    
+    background-color: rgb(54, 108, 224);
+
+    color: white;
+}
