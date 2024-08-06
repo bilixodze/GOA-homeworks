@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 250px;
+
+    margin-left: 720px;
+    margin-top: 100px;
+}
+
+h1, .head{
+    text-align: center;
+}
+
+h1{ 
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.head{
+    margin-top: 50px;
+    text-transform: lowercase;
+    font-size: 20px;
+    color: grey;
+}
+
+.parent{
+    width: 800px;
+    height: 220px;
+
+    border-radius: 25px;
+
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    background-image: url(./image07.jpg);
+    background-position:left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    
+    margin-left: 380px;
+    margin-top: 100px;
+
+    overflow: hidden;
+
+    box-shadow: 3px 3px 60px;
+}
+
+.child{
+    height: 70%;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.child h2{
+    font-size: 40px;
+
+    display: inline;
+
+}
+
+.child p{
+    font-size: 20px;
+
+    display: inline;
+}
+
+/* --------------------------------------- */
+
+.one{
+    width: 800px;
+    height: 220px;
+
+    border-radius: 25px;
+
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    background-image: url(./image05.jpg);
+    background-position:left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    
+    margin-left: 380px;
+    margin-top: 100px;
+
+    overflow: hidden;
+
+    box-shadow: 3px 3px 60px;
+}
+
+.one-child{
+    height: 70%;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.one-child h2{
+    font-size: 40px;
+
+    display: inline;
+
+}
+
+.one-child p{
+    font-size: 20px;
+
+    display: inline;
+}
+
+/* ---------------------------- */
+
+.two{
+    width: 800px;
+    height: 220px;
+
+    border-radius: 25px;
+
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    background-image: url(./image03.jpg);
+    background-position:left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    
+    margin-left: 380px;
+    margin-top: 100px;
+
+    overflow: hidden;
+
+    box-shadow: 3px 3px 60px;
+}
+
+.two-child{
+    height: 70%;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.two-child h2{
+    font-size: 40px;
+
+    display: inline;
+
+}
+
+.two-child p{
+    font-size: 20px;
+
+    display: inline;
+}
+
+
+/* --------------------------------- */
+
+.three{
+    width: 800px;
+    height: 220px;
+
+    border-radius: 25px;
+
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    background-image: url(./image01.jpg);
+    background-position:left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    
+    margin-left: 380px;
+    margin-top: 100px;
+
+    overflow: hidden;
+
+    box-shadow: 3px 3px 60px;
+}
+
+.three-child{
+    height: 70%;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.three-child h2{
+    font-size: 40px;
+
+    display: inline;
+
+}
+
+.three-child p{
+    font-size: 20px;
+
+    display: inline;
+}
+
+/* -------------------------------- */
+
+.four{
+    width: 800px;
+    height: 220px;
+
+    border-radius: 25px;
+
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    background-image: url(./image02.jpg);
+    background-position:left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    
+    margin-left: 380px;
+    margin-top: 100px;
+
+    overflow: hidden;
+
+    box-shadow: 3px 3px 60px;
+}
+
+.four-child{
+    height: 70%;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.four-child h2{
+    font-size: 40px;
+
+    display: inline;
+
+}
+
+.four-child p{
+    font-size: 20px;
+
+    display: inline;
+}
