@@ -1,6 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
 .parent{
-    width: 1520px;
-    height: 710px;
+    width: 1300px;
+    height: 700px;
 
     border-radius: 25px;
 
@@ -13,6 +26,7 @@
     overflow: hidden;
 
     box-shadow: 3px 3px 60px;
+
 }
 
 .child{
@@ -29,17 +43,60 @@ h1{
 
 p{
     display: inline;
-
     color:rgba(128, 128, 128, 0.775);
+    font-size: 13px;
 }
 
 input{
     text-align: center;
 }
 
-#button{
-    
-    background-color: rgb(54, 108, 224);
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
 
+.form-div form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(54, 108, 224);
     color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(54, 108, 224);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+input, button{
+    font-size: 15px;
+}
+
+.stre-pass{
+    width: 100%;
+    text-align: start;
+}
+
+button:hover{
+    background-color: transparent;
+    color: rgb(54, 108, 224);
 }
