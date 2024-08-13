@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.parent{
+    width: 1350px;
+    height: 710px;
+    
+    border: 4px solid;
+    border-radius: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 100px;
+    top: 10px;
+    
+    background-image: url(./Screenshot\ 2024-08-13\ 194336.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coantainer{
+    width: 250px;
+    border: 40px solid;
+    background-color: grey;
+    border-radius: 30px;
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+    
+}
+
+
+.box{
+    width: 20px;
+    height: 4px;
+    background-color: azure;
+    transition: 3s;
+    cursor: pointer;
+
+}
+
+.coantainer:hover .box{
+    width: 100%;
+}
