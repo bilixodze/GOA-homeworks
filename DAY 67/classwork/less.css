@@ -1,0 +1,32 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.one{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(18, 229, 18);
+    border: 5px solid black;
+    position: relative;
+    left: 650px;
+    top: 300px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#one{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.one:hover{
+    transform: scale(2.5); 
+}

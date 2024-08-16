@@ -1,0 +1,82 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.one{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(18, 229, 18);
+    border: 5px solid black;
+    position: relative;
+    left: 650px;
+    top: 550px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#one{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.one:hover{
+    transform: scale(2.5); 
+}
+
+.two{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(18, 229, 18);
+    border: 5px solid black;
+    position: relative;
+    left: -300px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#two{
+    display: inline;
+    position: relative;
+    top: 50;
+}
+
+#arrow{
+    display: inline;
+    position: relative;
+    left: 180px;
+    top: 50;
+}
+
+.two:hover{
+    transform: translate(300px);
+}
+
+.tree{
+    width:450px;
+    height: 150px;
+    background-color: rgb(18, 229, 18);
+    border: 5px solid black;
+    position: relative;
+    left: 520px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#tree{
+    position: relative;
+    top: 50px;
+    left: 15px;
+    font-size: 30px;
+}
+
+.tree:hover{
+    transform: rotate(30deg);
+}
