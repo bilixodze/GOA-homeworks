@@ -1,0 +1,50 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.571);
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    top: 300px;
+
+    animation-name: changecolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changecolor{
+    20%{
+        background-color: aquamarine;
+    }
+
+    40%{
+        background-color: blueviolet;
+        transform: translate(600px);
+        
+    }
+
+    60%{
+        background-color: azure;
+        width: 400px;
+        height: 400px;
+        top: 200px;
+    }
+
+
+    80%{
+        background-color: burlywood;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
