@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: rgb(30, 27, 27);
+    color: white;
+}
+
+header h1{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header ul{
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 18px;
+}
+
+header button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1100px){
+    header{
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    header button, header a{
+        font-size: 15px;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 700px){
+    eader button, header a{
+        font-size: 12px;
+    }
+
+    header button{
+        padding: 10px 13px;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 550px){
+    header{
+        flex-direction: column;
+        height: auto;
+        gap: 25px;
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 280px){
+    header ul{
+        flex-direction: column;
+    }
+}
+h1:hover{
+    color: green;
+}
+
+button:hover{
+    background-color: lightgreen;
+}
