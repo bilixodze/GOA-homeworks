@@ -1,18 +1,24 @@
 <html>
 <head>
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <h1>JS code</h1>
 </head>
 <body>
+    <p id="greet-p">Hi</p>
+
     <p id="one">goa</p>
     <p id="two">best</p>
 
+    <button id="buttonOne" onclick="greetings()">click me</button>
 
-    <p id="greet-p">Hi</p>
+    <p id="changeColor">goal</p>
 
-    <button onclick="greetings()">click me</button>
+    <button onclick="changeOne()"style="background-color: red;">red</button>
+    <button onclick="changeTwo()"style="background-color: yellow;">yellow</button>
+    <button onclick="changeTree()"style="background-color: green;">green</button>
 
 
     <script src="script.js"></script>

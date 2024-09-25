@@ -28,3 +28,21 @@ function greetings(){
     let paragraph = document.getElementById("greet-p")
     paragraph.textContent = "Hello"
 }
+
+// --------------------------------------
+
+
+function changeOne(){
+    let buttonOne = document.getElementById("changeColor")
+    buttonOne.style.color = "red"
+}
+
+function changeTwo(){
+    let buttonTwo = document.getElementById("changeColor")
+    buttonTwo.style.color = "yellow"
+}
+
+function changeTree(){
+    let buttonTree = document.getElementById("changeColor")
+    buttonTree.style.color = "green"
+}

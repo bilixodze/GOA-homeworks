@@ -1,0 +1,38 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+
+    position: relative;
+    left: 560px;
+    top: 100px;
+
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
+
+}
+
+button{
+    font-size: x-large;
+
+    padding: 15px 15px;
+    position: relative;
+    top: 150px;
+    left: 500px;
+
+    border-radius: 25px;
+    color: white;
+
+    cursor: pointer;
+}
+

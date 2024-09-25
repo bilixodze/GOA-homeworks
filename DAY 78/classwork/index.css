@@ -1,0 +1,48 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    top: 100px;
+
+    background-color: black;
+}
+
+h1{
+    color: yellow;
+
+    display: flex;
+    justify-content: center;
+}
+
+#greet-p, #one, #two, #changeColor{
+    display: flex;
+    justify-content: center;
+}
+
+#greet-p{
+    color: chartreuse;
+}
+
+#buttonOne{
+    position: relative;
+    left: 46%;
+}
+
+button{
+    position: relative;
+    left: 40%;
+    border-radius: 30px;
+    
+}
+
+p, h1, button{
+    font-size: xx-large;
+}
+
+button{
+    padding: 20px 20px;    
+}
