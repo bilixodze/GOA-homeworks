@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფოტო კარუსელი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="photo1.png" alt="Image 1" class="carousel-image">
+            <img src="photo2.png" alt="Image 2" class="carousel-image" style="display:none;">
+            <img src="photo3.png" alt="Image 3" class="carousel-image" style="display:none;">
+        </div>
+        <button class="carousel-button prev-button" onclick="changeImage(-1)">წინა</button>
+        <button class="carousel-button next-button" onclick="changeImage(1)">შემდეგი</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
