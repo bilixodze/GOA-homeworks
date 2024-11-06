@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>პროდუქტების სია</title>
+</head>
+<body>
+    <div id="product-list"></div>
+
+    <script>
+        // პროდუქტების მასივი
+        const products = [
+            { id: 1, title: "Product 1" },
+            { id: 2, title: "Product 2" },
+            { id: 3, title: "Product 3" }
+        ];
+
+        // პროდუქტის სიის ელემენტის პოვნა
+        const productList = document.getElementById("product-list");
+
+        // მასივის გადავლა და პროდუქტის ელემენტების შექმნა
+        products.forEach(product => {
+            // პროდუქტის ელემენტის შექმნა
+            const productElement = document.createElement("div");
+            productElement.classList.add("product");
+
+            // პროდუქტის სათაურის დამატება
+            productElement.innerHTML = `<h2>${product.title}</h2><p>ID: ${product.id}</p>`;
+
+            // ელემენტის დამატება ვებ გვერდზე
+            productList.appendChild(productElement);
+        });
+    </script>
+</body>
+</html>

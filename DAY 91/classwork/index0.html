@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ელექტრონული მაღაზია</title>
+    <link rel="stylesheet" href="style0.css">
+</head>
+<body>
+
+<h1>პროდუქტები</h1>
+<div id="products">
+    <div class="product" data-name="დამტენი" data-price="10">
+        <h3>დამტენი</h3>
+        <p>ფასი: 10₾</p>
+        <button onclick="addToCart(' დამტენი', 10)">Add to Cart</button>
+    </div>
+    <div class="product" data-name="ყურსასმენი" data-price="20">
+        <h3>ყურსასმენი</h3>
+        <p>ფასი: 20₾</p>
+        <button onclick="addToCart('ყურსასმენი', 20)">Add to Cart</button>
+    </div>
+    <div class="product" data-name="მაუსი" data-price="15">
+        <h3>მაუსი</h3>
+        <p>ფასი: 15₾</p>
+        <button onclick="addToCart('მაუსი', 15)">Add to Cart</button>
+    </div>
+</div>
+
+<h2>კალათა</h2>
+<div id="cart" class="cart"></div>
+
+<script src="script0.js"></script>
+
+</body>
+</html>
