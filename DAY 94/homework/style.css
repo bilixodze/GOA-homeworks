@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Page title */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form#add-item-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form#add-item-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  form#add-item-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form#add-item-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Cart container */
+  #cart {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  /* Cart item */
+  #cart div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #cart div:last-child {
+    border-bottom: none;
+  }
+  
+  #cart div button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #cart div button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Total price display */
+  h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  
+  #total-price {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
