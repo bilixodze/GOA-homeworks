@@ -1,0 +1,16 @@
+.tracker-container {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+#crypto-results {
+    margin-top: 20px;
+}
+.crypto-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
