@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Generator</title>
+  <style>
+    body {
+      background-image: url(image.webp); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      height: 100vh; 
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #F8F8FF;      ;
+      text-align: center;
+    }
+    #image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
+  </style>
 </head>
 <body>
-    <div id="image-container"></div>
+  <h1>Generated Images</h1>
+  <div id="image-container"></div>
 
-    <script src="script.jsx"></script>
+  <script>
+    // ფოტოების მისამართების მასივი
+    const imageUrls = [
+      "https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg",
+      "https://www.formation-bruxelles.be/images/HTML.jpg",
+      "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/264990459/original/3138448848eb3a991cd3e7c1bd62c5bca88f3e58/design-and-develop-your-web-or-desktop-app.jpg",
+      "https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png",
+      "https://www.myfreax.com/content/images/2022/11/introduction-to-javascript-syntax.webp",
+    ];
+
+    // img თეგების გენერირება map მეთოდის გამოყენებით
+    const imageTags = imageUrls.map(url => `<img src="${url}" alt="Image">`);
+
+    // გენერირებული თეგების HTML-ში ჩასმა
+    document.getElementById('image-container').innerHTML = imageTags.join("");
+  </script>
 </body>
 </html>

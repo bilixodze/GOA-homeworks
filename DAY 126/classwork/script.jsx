@@ -1,19 +1,20 @@
-const photoUrls = [
-    "css.jpg",
-    "html.jpg",
-    "js.jpg",
-    "python.jpg",
-    "React.png"
-  ];
-  
-  const imgElements = photoUrls.map((url, index) => {
-    const img = document.createElement("img");
-    img.src = url;
-    img.alt = `Image ${index + 1}`;
-    img.classList.add("styled-image");
-    return img;
-  });
-  
-  const container = document.getElementById("image-container");
-  imgElements.forEach(img => container.appendChild(img));
-  
+import React from "react";
+
+const NameList = () => {
+  // სახელების მასივი
+  const names = ["ანა", "გიორგი", "ნინო", "მარიამი"];
+
+  return (
+    <ul>
+      {/* map მეთოდის გამოყენება სიის დასარენდერებლად */}
+      {names.map((name) => (
+        <li>{name}</li> // Key არ არის მითითებული
+      ))}
+    </ul>
+  );
+};
+
+export default NameList;
+
+
+// ამ დავალებაში მივიღებთ Key ერორს
