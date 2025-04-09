@@ -1,4 +1,4 @@
-body{
+  body{
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, #6EE2F5, #6454F0);
     margin: 0;
@@ -9,7 +9,7 @@ body{
     min-height: 250px;
 }
 
-#image-container {
+  #image-container {
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -29,6 +29,6 @@ body{
   
   .styled-image:hover {
     transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);  
   }
   
